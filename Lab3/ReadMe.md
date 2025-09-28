@@ -19,7 +19,12 @@ https://youtu.be/Naz1KDe1dfc
 - Why is it important to use environment variables for configurations in a cloud environment?
     - It is important to let the microservices communicate through out the port that you allow in the environment variable. That is where you tell the backend service to send their traffic over RabbitMQ using the RABBITMQ-CONNECTION-STRING.
 
-# 3- Notes about setup challenges or lessons learned.
+# 3- Links to the three service repositories you created in lab 2:
+- order-service: https://github.com/AnaniKassa/order-service.git
+- product-service: https://github.com/AnaniKassa/product-service.git
+- store-front: https://github.com/AnaniKassa/store-front.git
+
+# 4- Notes about setup challenges or lessons learned.
    The following are my steps to successfully complete the lab
    - Refactor the product-service in python 
    - Create RabbitMQ VM and make it ready
