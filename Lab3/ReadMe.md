@@ -5,6 +5,9 @@
 # 1- Demo Video (Max 5 minutes)
 https://youtu.be/Naz1KDe1dfc
 
+- Disclaimer!!!
+    - Sorry, I faced a deployment issue while recording but fixed it. This has extended the video's length to 10 minutes.
+
 # 2- Reflection Questions
 
 - What challenges did you encounter when configuring environment variables in the GitHub Actions workflow?
