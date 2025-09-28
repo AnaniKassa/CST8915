@@ -8,7 +8,7 @@ https://youtu.be/Naz1KDe1dfc
 # 2- Reflection Questions
 
 - What challenges did you encounter when configuring environment variables in the GitHub Actions workflow?
-    - The challenge was at first, I was just copying and paste https://<order-service-app>.azurewebsites.net/ and replaced <order-service-app> by <order-service-appone> (my own). Still the front-store wasn't able to load the product service. Later on, I found out that, I have to copy the URL from the Azure portal under each Azure Web App services - <order-service-app> and <product-service-app>.
+    - The challenge was at first, I was just copying and paste https://order-service-app.azurewebsites.net/ and replaced "order-service-app" by "order-service-appone" (my own). Still the front-store wasn't able to load the product service. Later on, I found out that, I have to copy the URL from the Azure portal under each Azure Web App services - "order-service-app" and "product-service-app".
 
 - How does deploying microservices on Azure Web App Service differ from running them locally?
     - It is a pretty straight forward process, with just few click of configuration in the Azure portal, you are able to deploy your backend services, all you need is to have each microservice github repo ready. On the other hand, there is lot of environment setup to go through when deploying them locally.
